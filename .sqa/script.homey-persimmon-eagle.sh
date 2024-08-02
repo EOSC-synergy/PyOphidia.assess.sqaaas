@@ -5,5 +5,5 @@
 
 (
 cd github.com/OphidiaBigData/PyOphidia &&
-    licensee detect . --confidence 60 --json
+    rst-lint --level warning --format json .
 )

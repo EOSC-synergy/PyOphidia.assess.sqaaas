@@ -5,5 +5,5 @@
 
 (
 cd github.com/OphidiaBigData/PyOphidia &&
-    git rev-parse --is-inside-work-tree
+    git rev-parse --is-inside-work-tree 
 )
