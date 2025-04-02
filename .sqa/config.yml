@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       github.com/OphidiaBigData/PyOphidia git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-gold-havanese.sh
-        container: qc.acc_chummy-brass-vulture
+        - /usr/bin/env sh .sqa/script.sleepy-goldenrod-camel.sh
+        container: qc.acc_boozy-yellow-uakari
   QC.Doc:
     repos:
       github.com/OphidiaBigData/PyOphidia find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-sangria-tuatara.sh
-        container: qc.doc_squirrely-periwinkle-duck
+        - /usr/bin/env sh .sqa/script.lousy-puce-turkey.sh
+        container: qc.doc_muzzy-burgundy-abyssinian
       github.com/OphidiaBigData/PyOphidia git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-dandelion-havanese.sh
-        container: qc.doc_lousy-plum-burmese
+        - /usr/bin/env sh .sqa/script.skinny-white-molly.sh
+        container: qc.doc_queasy-teal-zonkey
       github.com/OphidiaBigData/PyOphidia markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-turquoise-guppy.sh
-        container: qc.doc_muzzy-platinum-seal
+        - /usr/bin/env sh .sqa/script.silly-pumpkin-avocet.sh
+        container: qc.doc_greasy-ivory-corgi
       github.com/OphidiaBigData/PyOphidia restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-cornflower-kangaroo.sh
-        container: qc.doc_geeky-magenta-tzu
+        - /usr/bin/env sh .sqa/script.geeky-bronze-mastiff.sh
+        container: qc.doc_lovely-bronze-tarsier
   QC.Lic:
     repos:
       github.com/OphidiaBigData/PyOphidia licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-aquamarine-robin.sh
-        container: qc.lic_trippy-cream-emu
+        - /usr/bin/env sh .sqa/script.shaggy-amethyst-grasshopper.sh
+        container: qc.lic_sickly-tan-llama
   QC.Sec:
     repos:
       github.com/OphidiaBigData/PyOphidia bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-olivine-turkey.sh
-        container: qc.sec_muggy-coral-grouse
+        - /usr/bin/env sh .sqa/script.slimy-zucchini-dormouse.sh
+        container: qc.sec_lumpy-sepia-sheepdog
   QC.Sty:
     repos:
       github.com/OphidiaBigData/PyOphidia flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-smalt-cassowary.sh
-        container: qc.sty_shabby-ochre-chimpanzee
+        - /usr/bin/env sh .sqa/script.homey-alizarin-turkey.sh
+        container: qc.sty_scaly-plum-lemur
   QC.Uni:
     repos:
       github.com/OphidiaBigData/PyOphidia pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-brown-mastiff.sh
-        container: qc.uni_chummy-cinnabar-fousek
+        - /usr/bin/env sh .sqa/script.pretty-viridian-boar.sh
+        container: qc.uni_shabby-yellow-chimpanzee
   QC.Ver:
     repos:
       github.com/OphidiaBigData/PyOphidia get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-taupe-lizard.sh
-        container: qc.ver_squirrely-black-markhor
+        - /usr/bin/env sh .sqa/script.slimy-sangria-budgerigar.sh
+        container: qc.ver_crappy-coral-tzu
 timeout: 5400
